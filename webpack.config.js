@@ -8,10 +8,8 @@ module.exports = {
     styles: ['./src/theme/dark.less', './src/theme/light.less'],
   },
   output: {
-    filename: 'bundle.js',
-    path: __dirname + '/build',
-    chunkFilename: '[id].[chunkhash].js',
-    publicPath: '/',
+    filename: 'bundle[name].js',
+    path: path.resolve(__dirname, 'dist'),
   },
   resolve: {
     extensions: ['.ts', '.tsx', '.js'],
@@ -64,7 +62,6 @@ module.exports = {
       template: './public/index.html',
       favicon: './public/favicon.ico',
     }),
-
     new webpack.ProvidePlugin({
       html2canvas: 'html2canvas',
     }),
