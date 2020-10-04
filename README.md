@@ -31,7 +31,7 @@ npm start
 
 ## <a name="demo">Демо</a>
 
-Демо-версия приложения: [![](https://res.cloudinary.com/dmubxrqem/image/upload/v1601772428/ggggggggggggggggggggggggggggggggggggg_nbcxke.png)](ссылка_на_дэмо)
+Демо-версия приложения: [![](https://res.cloudinary.com/dmubxrqem/image/upload/v1601772428/ggggggggggggggggggggggggggggggggggggg_nbcxke.png)](https://rs-app-shedule.netlify.app/)
 
 ## <a name="docs">Документация</a>
 
